@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
 	<head>
+		<meta charset="UTF-8"/>
 		<title>魔方消消乐</title>
 		<link rel="icon" type="image/png" href="favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
@@ -95,7 +96,7 @@
 					document.querySelector('.shareWX').onclick = function () {
 						wx.onMenuShareTimeline({
 							title: '我在魔方消消乐玩儿了 ' + currentHighScore + ' 分,求超越!一起来玩儿魔方消消乐吧~!',
-							link: 'http://cube_crash.com',
+							link: 'http://cube-crash.daoapp.io/',
 							imgUrl: 'http://img0.imgtn.bdimg.com/it/u=759695598,1344431682&fm=21&gp=0.jpg',
 							trigger: function (res) {
 								alert('用户点击分享到朋友圈');
